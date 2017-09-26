@@ -11,6 +11,12 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_second_activity" />
+
+    <Button
         android:id="@+id/btn_layout_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

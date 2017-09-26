@@ -15,68 +15,80 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        Log.v(getLogTag(), "onAttach");
+        Log.d(getLogTag(), "onAttach");
     }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.v(getLogTag(), "onCreate");
+        Log.d(getLogTag(), "onCreate");
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        Log.v(getLogTag(), "onCreateView");
+        Log.d(getLogTag(), "onCreateView");
         return null;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        Log.v(getLogTag(), "onActivityCreated");
+        Log.d(getLogTag(), "onActivityCreated");
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        Log.v(getLogTag(), "onStart");
+        Log.d(getLogTag(), "onStart");
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Log.v(getLogTag(), "onResume");
+        Log.d(getLogTag(), "onResume");
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        Log.v(getLogTag(), "onPause");
+        Log.d(getLogTag(), "onPause");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        Log.v(getLogTag(), "onStop");
+        Log.d(getLogTag(), "onStop");
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        Log.v(getLogTag(), "onDestroyView");
+        Log.d(getLogTag(), "onDestroyView");
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.v(getLogTag(), "onDestroy");
+        Log.d(getLogTag(), "onDestroy");
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
-        Log.v(getLogTag(), "onDetach");
+        Log.d(getLogTag(), "onDetach");
+    }
+
+    @Override
+    public void onSaveInstanceState(final Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.d(getLogTag(), "onSaveInstanceState");
+    }
+
+    @Override
+    public void onViewStateRestored(@Nullable final Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        Log.d(getLogTag(), "onViewStateRestored");
     }
 
     private String getLogTag() {

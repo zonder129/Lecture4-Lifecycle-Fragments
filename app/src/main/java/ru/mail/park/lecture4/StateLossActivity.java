@@ -33,7 +33,7 @@ public class StateLossActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Log.v("STATE_LOSS", "Performing fragment transaction");
+                Log.d("STATE_LOSS", "Performing fragment transaction");
                 FragmentTransaction transaction = getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.container, new RedFragment());

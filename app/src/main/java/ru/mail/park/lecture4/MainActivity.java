@@ -1,16 +1,22 @@
 package ru.mail.park.lecture4;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        findViewById(R.id.btn_second_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(final View view) {
+                startActivity(new Intent(MainActivity.this, SecondActivity.class));
+            }
+        });
 
         findViewById(R.id.btn_layout_fragment).setOnClickListener(new View.OnClickListener() {
             @Override
