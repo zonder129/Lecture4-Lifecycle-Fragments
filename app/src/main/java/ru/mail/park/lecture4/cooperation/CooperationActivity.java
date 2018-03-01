@@ -1,8 +1,10 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.cooperation;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import ru.mail.park.lecture4.R;
 
 public class CooperationActivity extends AppCompatActivity implements CooperationFragment.CooperationListener {
 

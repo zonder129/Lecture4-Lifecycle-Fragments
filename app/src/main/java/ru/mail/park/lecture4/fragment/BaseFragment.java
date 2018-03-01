@@ -1,4 +1,4 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;

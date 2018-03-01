@@ -1,4 +1,4 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -6,6 +6,11 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
+
+import ru.mail.park.lecture4.R;
+import ru.mail.park.lecture4.fragment.BlueFragment;
+import ru.mail.park.lecture4.fragment.GreenFragment;
+import ru.mail.park.lecture4.fragment.RedFragment;
 
 public class TransactionActivity extends AppCompatActivity {
 

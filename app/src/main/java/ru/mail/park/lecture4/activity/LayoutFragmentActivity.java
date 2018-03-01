@@ -1,7 +1,9 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import ru.mail.park.lecture4.R;
 
 public class LayoutFragmentActivity extends AppCompatActivity {
 

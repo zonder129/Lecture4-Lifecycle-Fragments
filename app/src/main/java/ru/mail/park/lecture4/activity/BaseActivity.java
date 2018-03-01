@@ -1,4 +1,4 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

@@ -1,4 +1,4 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.cooperation;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import ru.mail.park.lecture4.R;
+import ru.mail.park.lecture4.fragment.BaseFragment;
 
 public class CooperationFragment extends BaseFragment {
 

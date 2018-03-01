@@ -1,6 +1,8 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.activity;
 
 import android.os.Bundle;
+
+import ru.mail.park.lecture4.R;
 
 public class SecondActivity extends BaseActivity {
 

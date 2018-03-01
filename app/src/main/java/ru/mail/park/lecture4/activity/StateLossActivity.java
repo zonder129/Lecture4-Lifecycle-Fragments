@@ -1,4 +1,4 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -6,6 +6,9 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+
+import ru.mail.park.lecture4.R;
+import ru.mail.park.lecture4.fragment.RedFragment;
 
 public class StateLossActivity extends AppCompatActivity {
 

@@ -1,8 +1,11 @@
-package ru.mail.park.lecture4;
+package ru.mail.park.lecture4.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import ru.mail.park.lecture4.R;
+import ru.mail.park.lecture4.cooperation.CooperationActivity;
 
 public class MainActivity extends BaseActivity {
 

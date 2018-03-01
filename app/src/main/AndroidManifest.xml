@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LayoutFragmentActivity"/>
-        <activity android:name=".TransactionActivity"/>
-        <activity android:name=".MultiActionActivity"/>
-        <activity android:name=".StateLossActivity"/>
-        <activity android:name=".CooperationActivity"/>
-        <activity android:name=".SecondActivity"/>
+        <activity android:name=".activity.LayoutFragmentActivity"/>
+        <activity android:name=".activity.TransactionActivity"/>
+        <activity android:name=".activity.MultiActionActivity"/>
+        <activity android:name=".activity.StateLossActivity"/>
+        <activity android:name=".cooperation.CooperationActivity"/>
+        <activity android:name=".activity.SecondActivity"/>
     </application>
 
 </manifest>
