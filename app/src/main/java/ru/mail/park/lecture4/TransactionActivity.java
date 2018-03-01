@@ -16,7 +16,7 @@ public class TransactionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction);
 
-        backStackCheckbox = (CheckBox) findViewById(R.id.checkbox);
+        backStackCheckbox = findViewById(R.id.checkbox);
 
         findViewById(R.id.btn_add_fragment).setOnClickListener(new View.OnClickListener() {
             @Override
